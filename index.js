@@ -19,7 +19,7 @@ function currentLine(line) {
     const numbersNames = []
     
     for (let i=0, l=line.length; i < l; i++) {
-      numbersNames.push(`${i + 1}. $`)
+      numbersNames.push(`${i + 1}. ${line[i]}`)
     }
   }
 }
