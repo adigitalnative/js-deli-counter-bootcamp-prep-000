@@ -18,6 +18,8 @@ function currentLine(line) {
   } else {
     const numbersNames = []
     
-    for (let i=0, l=line.length; i < l; )
+    for (let i=0, l=line.length; i < l; i++) {
+      
+    }
   }
 }
